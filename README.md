@@ -51,3 +51,13 @@ Prior
 - Copy of Original SpotMicro Design
 - Not complete
 - MG996R Servo Horns from Hobbyking
+
+
+
+## TODO
+
+Rearrange the repo with the following structure to simplify
+
+	Assembly/midleg/servo_size_xxx/horns
+	Assembly/top_cover/plain
+	Assembly/top_cover/lidar
