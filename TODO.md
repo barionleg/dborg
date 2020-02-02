@@ -23,6 +23,7 @@ Upgrades
 	* Large body parts for small printers, that can be screwed safetly, so more people with smaller printers, can access the project
 	* Can we do a body plate that can be removed without unassembling the dog?
 	* Can the batteries will be screw to the side panels, so they can remain while the electronics are being worked outside of it?
+	* Can we just fit the electronics instead of flat, vertically? RaspberryPi Zero W dimensions are 66.0mm x 30.5mm x 5.0mm, PCA9685 dimensions are 62 x 26 mm
 
 
 
