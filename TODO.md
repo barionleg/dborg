@@ -15,7 +15,7 @@ Upgrades
 	* Front and back must be easy to unassemble
 	* The top cover has 2 sides that actually interfere with the shoulders and we had to cut the edges off, this needs to be fixed
 	* Clear alignment servos instructions
-	* Custom PCB can be ordered to JLCPCB online for 2dollars (do they provide a board designer?), make sure the cables go screwed to those boards, instead of solded, to simplify peoples life, also if we go for the non buck converter option but instead a tip that accepts from 4v to 20v input -> output 5v 1a for example, that comes solded with the headsink on it.
+	* Custom PCB can be ordered to JLCPCB online for 2dollars (do they provide a board designer?), make sure the cables go screwed to those boards, instead of solded, to simplify peoples life, also if we go for the non buck converter option but instead a tip that accepts from 4v to 20v input -> output 5v 1a for example, that comes solded with the headsink on it. (https://www.arrow.com/en/research-and-events/articles/battery-power-your-pi)
 	* Raspberry Pi Zero W can be more than enough for the base dog, also good for consumption
 	* Explain each component in the electronics wiki (and the rationality behind it). Power consumption, specifications that justify its usage, link to buy them
 	* Buck converters and BEC create a significant amount of radio noise due the coils they use. TIP's are exchanging energy consumption with heat, if we can have the TIP with a heat sink in the PCB, not touching the PLA, this could be perfect. Maybe using 2 TIP in parallel will divide also the heat in 2 heatsinks. How much hot gets for the RPi power consumption?
@@ -31,5 +31,6 @@ Upgrades
 	* 3dprint repo, the video about the 3d printing (timelapse) and assembly.
 	* Raspberry Pi, the video of how to get the dog up and running, from pi and empty sd card to have the dog pi working, with the setup of the boards. (maybe PiZeroW and/or Pi4, or both at the same time)
 	* Raspberry Pi, also the video for the totally unnecesary development environment
-
+	* The power dilema may be sovled: Linear regulators have better regulation and noise performance but aren’t efficient when then there is a lot of difference between vin and vout, so you have to use a combination of buck and linear regulator ( low dropout regulator :LDO). So we can use the bec 6v 20a and the TIP for lowering the 6v to 5v for the pi.
+	* The power dilema, can be extremmely simplified with stepdown but also step up boards like: https://www.pololu.com/product/2574, but noise remains. Asking them in their forum https://forum.pololu.com/t/pololu-5v-step-up-step-down-voltage-regulator-s18v20f5-radio-noise-emi/18775 and also looking for even more adjusted alternatives: https://www.robotshop.com/eu/en/step-up-step-down-voltage-regulator-s7v7f5.html?gclid=Cj0KCQiApt_xBRDxARIsAAMUMu9YM3f-2dydw_v6pDfd_yMBbXO4I5dymHfL3ZbFN4Qkcfah6PYL2XQaAsg8EALw_wcB, Pololu europe prices: https://www.robotshop.com/eu/en/catalogsearch/result/?q=Step-Up+%2F+Step-Down&order=relevance&dir=desc
 
