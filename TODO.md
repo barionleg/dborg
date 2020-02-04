@@ -3,6 +3,7 @@ Upgrades
 	v1.03
 
 	* New symetric foot from franferri, easy to glue
+	* Nozzle 0.6 to fast print the dog
 	* Front and rear shoulder, the same for easy maintenance of legs (avoiding having to unasemble the full body)
 	* Covers need to be easy to remove and add, to simplify the development, connections and rechagrge batteries
 	* Batteries may be mounted instead of flat, over their smallest side, so more can be accomodated
