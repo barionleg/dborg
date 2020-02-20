@@ -13,5 +13,5 @@ rear_cover/rear_cover_16x2_rocket_switch
 
 # Servo models
 
-Please update the following listwith links to the models online and if you need to add some clarification about the horns you used.
+Please update the following list with links to the models online and if you need to add some clarification about the horns you used.
 
