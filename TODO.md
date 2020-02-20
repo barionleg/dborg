@@ -10,21 +10,8 @@ Upgrades
 		* SBEC 20A - https://hobbyking.com/en_us/yep-20a-hv-2-12s-sbec-w-selectable-voltage-output.html
 		* Battery 2x FLOUREON 7.4V 2200mAh LiPo Battery 2S 35C
 
-	* Covers need to be easy to remove and add, to simplify the development, connections and rechagrge batteries
-		- Magnets
-	
-	* Batteries may be mounted instead of flat, over their smallest side, so more can be accomodated
-	
-	* The battery holder must present the screws to the outside, instead of hanging to the base plate, so remove the batteries becomes a minute of work if needed.
-	
-	* All batteries connection cables must be hold where the batteries are for simplicity, instead of where the electronics are
-	* The body of the dog must be longer to simplify to accomodate more electronics.
-	
 	* In the repo of assembly parts, having the components in 3d versions and the hole holders for them is needed to simplify users modifications
 	
-
-	* Front and back must be easy to unassemble
-
 	* Clear alignment servos instructions
 
 	* Custom PCB can be ordered to JLCPCB online for 2dollars (do they provide a board designer?), make sure the cables go screwed to those boards, instead of solded, to simplify peoples life, also if we go for the non buck converter option but instead a tip that accepts from 4v to 20v input -> output 5v 1a for example, that comes solded with the headsink on it. (https://www.arrow.com/en/research-and-events/articles/battery-power-your-pi)
