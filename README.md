@@ -25,9 +25,9 @@ TIP: If you just want to print, you can find they way I have printed them in my 
 
 ## User modifications models
 
-Different users have made some modifications, in my case, in the folder "User Fran Ferri modifications" you have a longer body and some base plates for RPiZeroW and RPi4 (and 3 since they have the same holes)
+Different users have made some modifications, in my case, in the folder "**User Fran Ferri modifications**" you have a longer body and some base plates for RPiZeroW and RPi4 (and 3 since they have the same holes)
 
-If you are looking for a more sturdy build check the modifications from Nahuel Taibo in the folder "User Nahuel Taibo modifications", they let you screw the servo horns instead of the originally suggested procedure of gluing them.
+If you are looking for a more sturdy build check the modifications from Nahuel Taibo in the folder "**User Nahuel Taibo modifications**", they let you screw the servo horns instead of the originally suggested procedure of gluing them.
 
 If you have a modification over the base models or even your own adaptation please share with us in this repo!
 
