@@ -10,53 +10,25 @@ Tip: Assembly.step file can be loaded in Autodesk Fusion 360
 
 To save time I suggest you to use:
 * Nozzle 0.6
-* Contact Z distance for support materials 2mm
+* Contact Z distance for support materials 2mm (or 1.5mm)
 * Layer height 0.3 mm (50% of the nozzle size)
 
-## Change Log
+## Basic 3d models
 
-Version 1.03 - Febuary 20, 2020
+In the folder Basic parts you can find some of the work that the community had from the firsts users.
 
-All the following changes based in the Version 1.02
+The version v1.02 is recommended if you are not familiar with 3d modeling since the parts are made to accept almost all servo horns types.
 
-- Made the body 6cm longer
-- Shoulders now symetricals and simple to unassemble for maintenance if needed, since they have the screws facing the user, in v1.02 for the rear shoulder was neccesary to unassemble the body to access the rear servos.
-- Covers perimeters have been shorten 0.3mm, so the actuation/movement of the servos don't touch them.
-- Foot has been improved, now is symetrical and has +1mm clearance for easy gluing.
-- Added a support in the shoulders cables hole to avoid cables to be touching the legs as they move inwards to the body (till 35º max)
+The folder is: "Basic 3d parts\v1.02"
 
-Version 1.02 - September 23, 2019
-- One model that supports servos from Hobbyking, Towerpro, or other high performance servos using standard metal servo horns. No more seperate models depending on which servos you have.
-- adjusted wrist joint width to make up for 3dprinted flange for 5mm bearing
-- Fixed hole size for captive nuts (again)
+TIP: If you just want to print, you can find they way I have printed them in my 3d printer in the folder: "Fran Ferri modifications\v1.02 Prusa Slicer". Using this files you don't have to work yourself the supports. Those prints were made for a nozzle 0.4 and PLA.
 
-Version 1.01 - September 8, 2019
-- Fixed hole size for captive nuts
-- Screw holes for computer mount instead of extrusions
+## User modifications models
 
-Version 1.00 - September 2, 2019
-- Legs are now designated as Right or Left
-- Body/Shoulders have been adjusted to facilitate left and right symmetry in the legs
-- Captive nuts are used where possible
-- Blank Nose and Black rear parts are included
-- No need to reflect parts after download
-- Chassis plate for RPi included
-- Chassis plate for Jetson Nano included
-- No holes cut in the covers
-- STEP files added
+Different users have made some modifications, in my case, in the folder "User Fran Ferri modifications" you have a longer body and some base plates for RPiZeroW and RPi4 (and 3 since they have the same holes)
 
-Prior
-- STL files
-- Copy of Original SpotMicro Design
-- Not complete
-- MG996R Servo Horns from Hobbyking
+If you are looking for a more sturdy build check the modifications from Nahuel Taibo in the folder "User Nahuel Taibo modifications", they let you screw the servo horns instead of the originally suggested procedure of gluing them.
 
+If you have a modification over the base models or even your own adaptation please share with us in this repo!
 
-
-## TODO
-
-Rearrange the repo with the following structure to simplify
-
-	Assembly/midleg/servo_size_xxx/horns
-	Assembly/top_cover/plain
-	Assembly/top_cover/lidar
+Instructions of how to collaborate here: https://spotmicroai.readthedocs.io/en/latest/collaborations/
