@@ -29,6 +29,8 @@ Different users have made some modifications, in my case, in the folder "**User 
 
 If you are looking for a more sturdy build check the modifications from Nahuel Taibo in the folder "**User Nahuel Taibo modifications**", they let you screw the servo horns instead of the originally suggested procedure of gluing them.
 
+If you are looking for a build with the least post-processing, go with the "**User Michael Kubina modifications**". The parts print without supports, the servo horns are screwed into place and the FreeCAD-Files are provided so you could modify your parts to your needs. Not all parts are interchangeable with the original SpotMicro!
+
 If you have a modification over the base models or even your own adaptation please share with us in this repo!
 
 Instructions of how to collaborate here: https://spotmicroai.readthedocs.io/en/latest/collaborations/
